@@ -1,9 +1,9 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent }   from './app.component';
+import { TraceComponent }   from './tracemodule/trace.component';
 @NgModule({
   imports:      [ BrowserModule ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [ TraceComponent ],
+  bootstrap:    [ TraceComponent ]
 })
 export class AppModule { }
