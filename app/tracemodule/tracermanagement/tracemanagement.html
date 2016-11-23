@@ -1,0 +1,81 @@
+<div class="row">
+    <div class="col-sm-8">
+    </div>
+
+
+    <div class="col-sm-4">
+        <form role="form" class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                                        Tracer
+                                    </label>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Tracer" required class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                                        Alias
+                                    </label>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Alias" required class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                                       COM port
+                                    </label>
+                <div class="col-sm-6">
+                    <select class="form-control" required>
+                                            <option value="">select option</option>
+                                            <option value="">value 1</option>
+                                            <option value="">value 2</option>
+                                        </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                                        BaudRate
+                                    </label>
+                <div class="col-sm-6" required>
+                    <input type="text" placeholder="BaudRate" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                                        parity
+                                    </label>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="parity" required class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                                        StopBit
+                                    </label>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="StopBit" required class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                                        HandShake
+                                    </label>
+                <div class="col-sm-6">
+                    <input type="text" placeholder="HandShake" required class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+
+                <div class="col-md-offset-5">
+                    <button type="button" (click)="onWebserverstart()" id="btnSave" class="btn btn-primary">Save</button>
+
+                    <button type="button" class="btn btn-danger" id="btnDelete">Delete</button> </div>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

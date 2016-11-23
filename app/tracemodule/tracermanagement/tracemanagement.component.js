@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var TracerManagementComponent = (function () {
+    function TracerManagementComponent() {
     }
-    AppComponent = __decorate([
+    TracerManagementComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: '<h1>Hello Angular!</h1>'
+            selector: 'tracer-management',
+            templateUrl: '../../app/tracemodule/tracermanagement/tracemanagement.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], TracerManagementComponent);
+    return TracerManagementComponent;
 }());
-exports.AppComponent = AppComponent;
+exports.TracerManagementComponent = TracerManagementComponent;
 //# sourceMappingURL=tracemanagement.component.js.map

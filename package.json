@@ -30,7 +30,9 @@
         "systemjs": "0.19.39",
         "zone.js": "^0.6.25",
         "jquery": "",
-        "bootstrap": ""
+        "bootstrap": "",
+        "ng2-uploader": "1.5.3"
+
     },
     "devDependencies": {
         "@types/core-js": "^0.9.34",

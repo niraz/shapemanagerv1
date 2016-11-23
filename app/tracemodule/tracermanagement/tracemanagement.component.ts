@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 @Component({
-  selector: 'my-app',
-  template: '<h1>Hello Angular!</h1>'
+  selector: 'tracer-management',
+  templateUrl: '../../app/tracemodule/tracermanagement/tracemanagement.html'
 })
-export class AppComponent { }
+export class TracerManagementComponent { }

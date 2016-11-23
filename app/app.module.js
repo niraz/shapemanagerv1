@@ -10,14 +10,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+var app_route_component_1 = require('./route/app.route.component');
 var trace_component_1 = require('./tracemodule/trace.component');
+var traceupload_component_1 = require('./tracemodule/traceupload/traceupload.component');
+var tracelibrary_component_1 = require('./tracemodule/tracelibrary/tracelibrary.component');
+var tracemanagement_component_1 = require('./tracemodule/tracermanagement/tracemanagement.component');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
-            declarations: [trace_component_1.TraceComponent],
+            imports: [platform_browser_1.BrowserModule, app_route_component_1.routingComponents],
+            declarations: [trace_component_1.TraceComponent, tracelibrary_component_1.TraceLibraryComponent, traceupload_component_1.TraceUploadComponent, tracemanagement_component_1.TracerManagementComponent],
             bootstrap: [trace_component_1.TraceComponent]
         }), 
         __metadata('design:paramtypes', [])

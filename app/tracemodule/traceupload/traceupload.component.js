@@ -9,17 +9,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
+var TraceUploadComponent = (function () {
+    function TraceUploadComponent() {
+        this.hasBaseDropZoneOver = false;
+        this.options = {
+            url: 'http://localhost:10050/upload'
+        };
     }
-    AppComponent = __decorate([
+    TraceUploadComponent.prototype.handleUpload = function (data) {
+        if (data && data.response) {
+            data = JSON.parse(data.response);
+            this.uploadFile = data;
+        }
+    };
+    TraceUploadComponent.prototype.fileOverBase = function (e) {
+        this.hasBaseDropZoneOver = e;
+    };
+    TraceUploadComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: '<h1>Hello Angular!</h1>'
+            templateUrl: '../../app/tracemodule/traceupload/traceupload.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], TraceUploadComponent);
+    return TraceUploadComponent;
 }());
-exports.AppComponent = AppComponent;
+exports.TraceUploadComponent = TraceUploadComponent;
 //# sourceMappingURL=traceupload.component.js.map

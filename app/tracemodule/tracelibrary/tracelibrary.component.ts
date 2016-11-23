@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 @Component({
-  selector: 'my-app',
-  template: '<h1>Hello Angular!</h1>'
+   selector: 'trace-library',
+   templateUrl: '../../app/tracemodule/tracelibrary/tracelibrary.html'
 })
-export class AppComponent { }
+export class TraceLibraryComponent { }

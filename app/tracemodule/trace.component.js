@@ -9,17 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var TraceLibraryComponent = (function () {
-    function TraceLibraryComponent() {
+var TraceComponent = (function () {
+    function TraceComponent() {
     }
-    TraceLibraryComponent = __decorate([
+    TraceComponent = __decorate([
         core_1.Component({
-            selector: 'trace-library',
-            templateUrl: '../../app/tracemodule/tracelibrary/tracelibrary.html'
+            selector: 'shape-manager',
+            templateUrl: '../../app/tracemodule/tracecomponent.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], TraceLibraryComponent);
-    return TraceLibraryComponent;
+    ], TraceComponent);
+    return TraceComponent;
 }());
-exports.TraceLibraryComponent = TraceLibraryComponent;
-//# sourceMappingURL=tracelibrary.component.js.map
+exports.TraceComponent = TraceComponent;
+//# sourceMappingURL=trace.component.js.map
